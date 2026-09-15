@@ -1,3 +1,1 @@
-variable "subnets" {
-  type = map(object())
-}   
+variable "subnets" {}   

@@ -1,0 +1,46 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
+  <diagram name="Page-1" id="UoDH68TrBaSu7MqiLowm">
+    <mxGraphModel dx="2339" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" adaptiveColors="simple">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E4KotsjvQp36kjFrVbkH-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="780" width="1420" x="-130" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="E4KotsjvQp36kjFrVbkH-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+          <mxGeometry height="680" width="1330" x="-70" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="E4KotsjvQp36kjFrVbkH-2" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Management_Groups.svg;" value="Root Tenant Group&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="41.25" x="590" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E4KotsjvQp36kjFrVbkH-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="600" width="620" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="E4KotsjvQp36kjFrVbkH-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="600" width="600" x="640" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="E4KotsjvQp36kjFrVbkH-5" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Management_Groups.svg;" value="Landing Zone -XYZ&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="41.25" x="-61.25" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="E4KotsjvQp36kjFrVbkH-10" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Subscriptions.svg;" value="Pre-Prod" vertex="1">
+          <mxGeometry height="50" width="30.99" x="50" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="E4KotsjvQp36kjFrVbkH-12" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Subscriptions.svg;" value="Prod" vertex="1">
+          <mxGeometry height="50" width="30.99" x="720" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="E4KotsjvQp36kjFrVbkH-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="470" width="560" x="30" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="E4KotsjvQp36kjFrVbkH-18" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/ResourceGroup.svg;" value="RG-PreProd" vertex="1">
+          <mxGeometry height="40" width="50" x="50" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="E4KotsjvQp36kjFrVbkH-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;" value="" vertex="1">
+          <mxGeometry height="470" width="550" x="670" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="E4KotsjvQp36kjFrVbkH-20" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/ResourceGroup.svg;" value="RG-&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Prod&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="50" x="690" y="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,3 +1,1 @@
-variable "bastion-hosts" {
-  type = map(objects())
-}   
+variable "bastion-hosts" {}   

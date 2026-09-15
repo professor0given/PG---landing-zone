@@ -1,3 +1,1 @@
-variable "vnets" {
-  type = map(object())
-}
+variable "vnets" {}
