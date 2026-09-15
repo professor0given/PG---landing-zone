@@ -7,9 +7,9 @@ terraform {
   }
 
   backend "azurerm" {
-    resource_group_name  = "stg-pg-lz-rg"
-    storage_account_name = "stgpglzstate001"
-    container_name       = "tfstate"
+    resource_group_name  = "RG-landingZone"
+    storage_account_name = "lalantop"
+    container_name       = "tfstate-prod"
     key                  = "prod.tfstate"
   }
 }
