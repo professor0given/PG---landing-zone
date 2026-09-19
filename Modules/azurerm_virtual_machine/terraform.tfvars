@@ -17,6 +17,6 @@ vms = {
     storage_os_disk_managed_disk_type = "Standard_LRS"
     computer_name                     = "frontend01"
     admin_username                    = "testadmin"
-
+    key_vault_name                    = "kv-preprod"
   }
 }

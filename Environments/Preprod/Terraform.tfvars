@@ -26,9 +26,38 @@ virtual_networks = {
 
 subnets = {
   subnet1 = {
-    name                 = "subnet-preprod"
+    subnet_name          = "subnet-preprod-frontend"
     virtual_network_name = "vnet-preprod"
     resource_group_name  = "RG-preprod"
-    address_prefixes     = ["10.0.1.0"]
+    address_prefixes     = ["10.0.1.0/24"]
+  }
+
+  subnet1 = {
+    subnet_name          = "subnet-preprod-backend"
+    virtual_network_name = "vnet-preprod"
+    resource_group_name  = "RG-preprod"
+    address_prefixes     = ["10.0.2.0/24"]
+  }
+
+  subnet1 = {
+    subnet_name          = "subnet-preprod-database"
+    virtual_network_name = "vnet-preprod"
+    resource_group_name  = "RG-preprod"
+    address_prefixes     = ["10.0.3.0/24"]
+  }
+
+  subnet1 = {
+    subnet_name          = "subnet-preprod-Bastion"
+    virtual_network_name = "vnet-preprod"
+    resource_group_name  = "RG-preprod"
+    address_prefixes     = ["10.0.4.0/24"]
+  }
+
+  subnet1 = {
+    subnet_name          = "subnet-preprod-app_gateway"
+    virtual_network_name = "vnet-preprod"
+    resource_group_name  = "RG-preprod"
+    address_prefixes     = ["10.0.5.0/24"]
   }
 }
+
